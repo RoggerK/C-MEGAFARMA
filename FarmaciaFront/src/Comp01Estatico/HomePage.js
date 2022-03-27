@@ -6,17 +6,14 @@ class HomePage extends Component {
 
     render() {
         return (
-            <div> <CompCabecera />
+            <div>
+                <CompCabecera/>
                 <main role="main" >
                     Hola está es mi primera pagina
                 </main>
                 <CompPiePagina />
             </div>
         );
-
-
-
-
     }
 }
 
