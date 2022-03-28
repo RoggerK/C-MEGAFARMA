@@ -1,9 +1,16 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import CompCabecera from "./CompCabecera";
 import CompPiePagina from "./CompPiePagina";
 import CompCuerpo from "./CompCuerpo";
 import CompCuerpoLaboratorio from "./CompCuerpoLaboratorio";
+
+//Producto
+import CompProductoMant from "./ProductoMant/CompProductoMant"
+//Categoria
+import CompCategoriaMant from "./CategoriaMant/CompCategoriaMant"
+//Marca
+import CompMarcaMant from "./MarcaMant/CompMarcaMant"
 
 class HomePage extends Component {
   render() {
@@ -45,7 +52,7 @@ function ProductoMant() {
     <div>
       <CompCabecera />
       <div>
-        ProductoMant
+        <CompProductoMant />
       </div>
       <CompPiePagina />
     </div>
@@ -57,7 +64,7 @@ function CategoriaMant() {
     <div>
       <CompCabecera />
       <div>
-          CategoriaMant
+          <CompCategoriaMant />
       </div>
       <CompPiePagina />
     </div>
@@ -69,7 +76,7 @@ function MarcaMant() {
     <div>
       <CompCabecera />
       <div>
-          MarcaMant
+          <CompMarcaMant />
       </div>
       <CompPiePagina />
     </div>

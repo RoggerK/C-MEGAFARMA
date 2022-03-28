@@ -16,5 +16,29 @@
         "urlimg": "https://images.ctfassets.net/th5532uiq8ey/2arqJX7VlUKU2Z9pOoyFkN/d0ea534bb353a397e7ef85ae4b66c4a1/Vick_Prod_Large_1000x1000_Vaporub_12gr.jpg",
         "nombre": "Vick vaporub",
         "prcUN": "2.2"
+    },
+    {
+        "id": 4,
+        "urlimg": "https://dcuk1cxrnzjkh.cloudfront.net/imagesproducto/109005X.jpg",
+        "nombre": "Aspirina 100mg Tableta",
+        "prcUN": "0.8"
+    },
+    {
+        "id": 5,
+        "urlimg": "https://dcuk1cxrnzjkh.cloudfront.net/imagesproducto/428242X.jpg",
+        "nombre": "Livolin Forte Cápsula Blanda",
+        "prcUN": "1.5"
+    },
+    {
+        "id": 6,
+        "urlimg": "https://dcuk1cxrnzjkh.cloudfront.net/imagesproducto/230238X.jpg",
+        "nombre": "Doloral 100mg/5ml Suspensión Oral",
+        "prcUN": "2.9"
+    },
+    {
+        "id": 7,
+        "urlimg": "https://dcuk1cxrnzjkh.cloudfront.net/imagesproducto/198058X.jpg",
+        "nombre": "Aci Basic 400mg-30mg/5ml Suspensión Oral",
+        "prcUN": "1.5"
     }
 ]
