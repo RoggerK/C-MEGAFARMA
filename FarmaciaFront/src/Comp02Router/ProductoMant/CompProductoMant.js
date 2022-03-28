@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import DataJasonListarProductos from "../DataJason/DataJasonListarProductos.json";
+import DataJsonListarProductos from "../DataJason/DataJsonListarProductos.json";
 
 class CompProductoMant extends Component {
   render() {
@@ -19,7 +19,7 @@ class CompProductoMant extends Component {
                 </tr>
               </thead>
               <tbody>
-                {DataJasonListarProductos.map((producto, indice) => {
+                {DataJsonListarProductos.map((producto, indice) => {
                   return (
                     <tr>
                       <th scope="row" key={producto.id}>

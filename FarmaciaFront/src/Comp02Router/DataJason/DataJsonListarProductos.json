@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "urlimg": "https://res.cloudinary.com/mtree/image/upload/q_auto:eco,f_auto,dpr_auto/Vick_ES_MX/6nNGii9eO9tpTL6BOXXLJm/e6b37b31247275fb97c659c07b775f83/Vick_Prod_Related_300x300_Jarabe44miel_120ml.jpg",
+        "nombre": "Vick 44 exp",
+        "prcUN": "2.2"
+    },
+    {
+        "id": 2,
+        "urlimg": "https://res.cloudinary.com/mtree/image/upload/q_auto:eco,f_auto,dpr_auto/Vick_ES_MX/O5jeFEtnxGvDIZj7P3jjT/8d4f5d2ae32ef717f5927c93b1c3d9b2/Vick_Prod_Large_1000x1000_Jarabe44_120ml.jpg",
+        "nombre": "Vick 44",
+        "prcUN": "2.2"
+    },
+    {
+        "id": 3,
+        "urlimg": "https://images.ctfassets.net/th5532uiq8ey/2arqJX7VlUKU2Z9pOoyFkN/d0ea534bb353a397e7ef85ae4b66c4a1/Vick_Prod_Large_1000x1000_Vaporub_12gr.jpg",
+        "nombre": "Vick vaporub",
+        "prcUN": "2.2"
+    },
+    {
+        "id": 4,
+        "urlimg": "https://dcuk1cxrnzjkh.cloudfront.net/imagesproducto/109005X.jpg",
+        "nombre": "Aspirina 100mg Tableta",
+        "prcUN": "0.8"
+    },
+    {
+        "id": 5,
+        "urlimg": "https://dcuk1cxrnzjkh.cloudfront.net/imagesproducto/428242X.jpg",
+        "nombre": "Livolin Forte Cápsula Blanda",
+        "prcUN": "1.5"
+    },
+    {
+        "id": 6,
+        "urlimg": "https://dcuk1cxrnzjkh.cloudfront.net/imagesproducto/230238X.jpg",
+        "nombre": "Doloral 100mg/5ml Suspensión Oral",
+        "prcUN": "2.9"
+    },
+    {
+        "id": 7,
+        "urlimg": "https://dcuk1cxrnzjkh.cloudfront.net/imagesproducto/198058X.jpg",
+        "nombre": "Aci Basic 400mg-30mg/5ml Suspensión Oral",
+        "prcUN": "1.5"
+    }
+]
