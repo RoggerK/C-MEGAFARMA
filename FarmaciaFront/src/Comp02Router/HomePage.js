@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import CompCabecera from "./CompCabecera";
+import CompCarusel from "./CompCarusel"
 import CompPiePagina from "./CompPiePagina";
 import CompCuerpo from "./CompCuerpo";
+import CompContactanos from "./CompContactanos";
 import CompCuerpoLaboratorio from "./CompCuerpoLaboratorio";
-
+import CompCabeceraMant from "./CompCabeceraMant";
 //Producto
 import CompProductoMant from "./ProductoMant/CompProductoMant"
 //Categoria
@@ -37,20 +39,24 @@ export default HomePage;
 function Inicio() {
   return (
     <div>
-      <CompCabecera />
-      <div>
-          <CompCuerpo />
-          <CompCuerpoLaboratorio />
-      </div>
-      <CompPiePagina />
-    </div>
+                <dic>
+                <CompCabecera/>
+                <CompCarusel/>
+                </dic>
+                <div>
+                    <CompCuerpo/>
+                    <CompCuerpoLaboratorio/><br/><br/>
+                    </div>
+                    <CompContactanos/>
+                    <CompPiePagina />
+                    </div>
   );
 }
 
 function ProductoMant() {
   return (
     <div>
-      <CompCabecera />
+      <CompCabeceraMant />
       <div>
         <CompProductoMant />
       </div>
@@ -62,7 +68,7 @@ function ProductoMant() {
 function CategoriaMant() {
   return (
     <div>
-      <CompCabecera />
+      <CompCabeceraMant />
       <div>
           <CompCategoriaMant />
       </div>
@@ -74,7 +80,7 @@ function CategoriaMant() {
 function MarcaMant() {
   return (
     <div>
-      <CompCabecera />
+      <CompCabeceraMant />
       <div>
           <CompMarcaMant />
       </div>

@@ -7,9 +7,11 @@ import {
 } from "react-router-dom";
 import CompCabecera from "./CompCabecera";
 import CompPiePagina from "./CompPiePagina";
+import CompCarusel from "./CompCarusel"
 import CompCuerpo from "./CompCuerpo";
 import CompCuerpoLaboratorio from "./CompCuerpoLaboratorio";
-
+import CompContactanos from "./CompContactanos";
+import CompCabeceraMant from "./CompCabeceraMant";
 //Producto
 import CompProductoMant from "./ProductoMant/CompProductoMant";
 import CompProductoDin from "./ProductoMant/CompProductoDin";
@@ -47,13 +49,17 @@ export default HomePage;
 function Inicio() {
   return (
     <div>
-      <CompCabecera />
-      <div>
-        <CompCuerpo />
-        <CompCuerpoLaboratorio />
-      </div>
-      <CompPiePagina />
-    </div>
+                <dic>
+                <CompCabecera/>
+                <CompCarusel/>
+                </dic>
+                <div>
+                    <CompCuerpo/>
+                    <CompCuerpoLaboratorio/><br/><br/>
+                    </div>
+                    <CompContactanos/>
+                    <CompPiePagina />
+                    </div>
   );
 }
 
@@ -61,7 +67,7 @@ function ProductoMant() {
   const { idpro } = useParams();
   return (
     <div>
-      <CompCabecera />
+      <CompCabeceraMant />
       <div>
         <CompProductoMant />
         <CompProductoDin idpro={idpro} />
@@ -75,7 +81,7 @@ function CategoriaMant() {
   const { idcat } = useParams();
   return (
     <div>
-      <CompCabecera />
+      <CompCabeceraMant />
       <div>
         <CompCategoriaMant />
         <CompCategoriaDin idcat={idcat} />
@@ -89,7 +95,7 @@ function MarcaMant() {
   const { idmar } = useParams();
   return (
     <div>
-      <CompCabecera />
+      <CompCabeceraMant />
       <div>
         <div class="container">
           <div class="row">

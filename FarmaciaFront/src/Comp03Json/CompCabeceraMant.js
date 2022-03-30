@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-class CompCabecera extends Component {
+class CompCabeceraMant extends Component {
   render() {
     return (
       <nav class="navbar navbar-expand-lg navbar-dark p-0 fixed-top">
@@ -13,17 +13,15 @@ class CompCabecera extends Component {
               <div class="collapse navbar-collapse" id="nav-superior">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 "></ul>
                 <Link to="/"><a class=" nav-link text-light" aria-current="page" >Inicio</a></Link>
-                <a class="nav-link text-light" href="#laboratorio">Laboratorios</a>
-                <a class="nav-link text-light" href="#nosotros">Nosotros</a>
-                <a class="nav-link text-light" href="#contactenos">Contactenos</a>
+             
     
                   <div class="dropdown nav-categoria">
                   <a  class="nav-link text-light">
                   Administrar</a>
                   <div id="drop-down" >
-                  <Link class="nav-link text-white" to="/marcaMant/0"><a  class="clinks"> Marca</a></Link>
-                      <Link class="nav-link text-white" to="/productoMant/0"><a class="clinks">Producto</a></Link>
-                      <Link class="nav-link text-white" to="/categoriaMant/0"><a  class="clinks"> Categorias</a></Link>        
+                  <Link class="nav-link text-white" to="/marcaMant/0"><a  class="clinks"><img class="icono bg-light" src="img/iconos/laboratorio.png" alt=""/> Marca</a></Link>
+                      <Link class="nav-link text-white" to="/productoMant/0"><a class="clinks"><img class="icono bg-light" src="img/iconos/productos.png" alt=""/> Producto</a></Link>
+                      <Link class="nav-link text-white" to="/categoriaMant/0"><a  class="clinks"><img class="icono bg-light" src="img/iconos/categorias.png" alt=""/> Categorias</a></Link>        
                   </div>
                 </div>
               </div>
@@ -33,4 +31,4 @@ class CompCabecera extends Component {
   }
 }
 
-export default CompCabecera;
+export default CompCabeceraMant;
